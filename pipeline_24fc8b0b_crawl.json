@@ -1,0 +1,761 @@
+{
+  "scan_id": "crawl_18d229d8",
+  "status": "COMPLETED",
+  "seed_url": "https://avanti-deploy.vercel.app/",
+  "base_domain": "avanti-deploy.vercel.app",
+  "robots_txt": {
+    "url": "https://avanti-deploy.vercel.app/robots.txt",
+    "status_code": 404,
+    "content": null,
+    "error": null
+  },
+  "timestamp_start": "2026-01-19T22:57:29.381872Z",
+  "timestamp_end": "2026-01-19T22:58:00.236675Z",
+  "duration_ms": 30854,
+  "crawl_config": {
+    "max_depth": 3,
+    "max_pages": 100,
+    "user_agent": "SEO_Agent_Bot/1.0"
+  },
+  "summary": {
+    "pages_crawled": 13,
+    "pages_blocked": 0,
+    "pages_failed": 0,
+    "total_internal_links_found": 14,
+    "total_external_links_found": 0,
+    "total_images": 0,
+    "images_without_alt": 0,
+    "pages_without_title": 0,
+    "pages_without_meta_description": 0,
+    "pages_without_h1": 0
+  },
+  "pages": [
+    {
+      "url": "https://avanti-deploy.vercel.app/",
+      "final_url": "https://avanti-deploy.vercel.app/",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 203,
+      "crawl_depth": 0,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Award-Winning Landscaping Company in Toronto & GTA"
+          ],
+          "h2": [
+            "The most preferred & certified landscaping company in GTA",
+            "Our fields of expertise",
+            "Landscaping services that support your goals",
+            "Why choose Avanti Landscaping",
+            "Testimonials",
+            "Our service locations",
+            "Transform your outdoor space"
+          ],
+          "h3": [
+            "Get a free quote",
+            "Industry Leadership Award",
+            "Client Satisfaction Award",
+            "Years of Service Recognition",
+            "Landscaping",
+            "Stonework",
+            "Woodwork",
+            "Swimming Pools",
+            "Other Services",
+            "Boosts property value",
+            "Functional outdoor living",
+            "Enhances curb appeal",
+            "Increase privacy & security",
+            "Get a free quote",
+            "Full turnkey services",
+            "Luxury craftsmanship",
+            "Proven track record",
+            "Warranty & insurance",
+            "Award-winning",
+            "Top-rated by homeowners",
+            "City of Toronto",
+            "York Region",
+            "Peel Region",
+            "Halton Region",
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/get-a-quote",
+      "final_url": "https://avanti-deploy.vercel.app/get-a-quote",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 100,
+      "crawl_depth": 1,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Get a free quote for your project"
+          ],
+          "h2": [],
+          "h3": [
+            "Get a free quote",
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "mailto:info@avantilandscaping.ca",
+          "tel:(647) 503-0352"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/services/landscaping",
+      "final_url": "https://avanti-deploy.vercel.app/services/landscaping",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 199,
+      "crawl_depth": 2,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Landscaping Services"
+          ],
+          "h2": [
+            "Built for projects of any size or complexity"
+          ],
+          "h3": [
+            "Get a free quote",
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/services/stonework",
+      "final_url": "https://avanti-deploy.vercel.app/services/stonework",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 91,
+      "crawl_depth": 3,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Stonework Services"
+          ],
+          "h2": [
+            "Built for projects of any size or complexity"
+          ],
+          "h3": [
+            "Get a free quote",
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/services/woodwork",
+      "final_url": "https://avanti-deploy.vercel.app/services/woodwork",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 98,
+      "crawl_depth": 3,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Woodwork Services"
+          ],
+          "h2": [
+            "Built for projects of any size or complexity"
+          ],
+          "h3": [
+            "Get a free quote",
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/services/swimming-pools",
+      "final_url": "https://avanti-deploy.vercel.app/services/swimming-pools",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 95,
+      "crawl_depth": 3,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Swimming Pools"
+          ],
+          "h2": [
+            "Built for projects of any size or complexity"
+          ],
+          "h3": [
+            "Get a free quote",
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/services/other-services",
+      "final_url": "https://avanti-deploy.vercel.app/services/other-services",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 93,
+      "crawl_depth": 3,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Other Services"
+          ],
+          "h2": [
+            "Built for projects of any size or complexity"
+          ],
+          "h3": [
+            "Get a free quote",
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/gallery",
+      "final_url": "https://avanti-deploy.vercel.app/gallery",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 105,
+      "crawl_depth": 3,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Our portfolio of outdoor transformations"
+          ],
+          "h2": [],
+          "h3": [
+            "Interlocking driveway & entry steps",
+            "Backyard pool with integrated lighting",
+            "Custom pergola with seating zone",
+            "Tiered steps with retaining wall",
+            "Modern deck with privacy screen",
+            "Flagstone walkway and garden beds",
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/about-us",
+      "final_url": "https://avanti-deploy.vercel.app/about-us",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 102,
+      "crawl_depth": 3,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Award winning & certified landscaping company in GTA"
+          ],
+          "h2": [],
+          "h3": [
+            "Get a free quote",
+            "Built on trust",
+            "Safety & insurance",
+            "One team, zero stress",
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/blog",
+      "final_url": "https://avanti-deploy.vercel.app/blog",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 93,
+      "crawl_depth": 3,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Insights from Avanti Landscaping"
+          ],
+          "h2": [],
+          "h3": [
+            "How interlocking boosts curb appeal and durability",
+            "Designing multi-functional backyards for hosting",
+            "Choosing the right pool type for your property",
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/contacts",
+      "final_url": "https://avanti-deploy.vercel.app/contacts",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 101,
+      "crawl_depth": 3,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Let\u2019s talk about your project"
+          ],
+          "h2": [
+            "Service coverage"
+          ],
+          "h3": [
+            "Get a free quote",
+            "City of Toronto",
+            "York Region",
+            "Peel Region",
+            "Halton Region",
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/privacy-policy",
+      "final_url": "https://avanti-deploy.vercel.app/privacy-policy",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 95,
+      "crawl_depth": 3,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Privacy Policy"
+          ],
+          "h2": [],
+          "h3": [
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 13,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    },
+    {
+      "url": "https://avanti-deploy.vercel.app/sitemap",
+      "final_url": "https://avanti-deploy.vercel.app/sitemap",
+      "is_redirect": false,
+      "http_status": 200,
+      "load_time_ms": 87,
+      "crawl_depth": 3,
+      "page_data": {
+        "title": "Landscaping Company - Avanti Landscaping",
+        "meta_description": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds.",
+        "canonical": null,
+        "robots_tag": null,
+        "headings": {
+          "h1": [
+            "Site Map"
+          ],
+          "h2": [],
+          "h3": [
+            "Avanti Landscaping"
+          ]
+        },
+        "images": []
+      },
+      "links": {
+        "internal_count": 14,
+        "external_count": 0,
+        "internal_links": [
+          "https://avanti-deploy.vercel.app/",
+          "https://avanti-deploy.vercel.app/get-a-quote",
+          "https://avanti-deploy.vercel.app/services/landscaping",
+          "https://avanti-deploy.vercel.app/services/stonework",
+          "https://avanti-deploy.vercel.app/services/woodwork",
+          "https://avanti-deploy.vercel.app/services/swimming-pools",
+          "https://avanti-deploy.vercel.app/services/other-services",
+          "https://avanti-deploy.vercel.app/gallery",
+          "https://avanti-deploy.vercel.app/about-us",
+          "https://avanti-deploy.vercel.app/blog",
+          "https://avanti-deploy.vercel.app/contacts",
+          "https://avanti-deploy.vercel.app/thank-you",
+          "https://avanti-deploy.vercel.app/privacy-policy",
+          "https://avanti-deploy.vercel.app/sitemap"
+        ],
+        "external_links": [],
+        "malformed_links": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      }
+    }
+  ],
+  "site_graph": {
+    "all_internal_links": [
+      "https://avanti-deploy.vercel.app/services/swimming-pools",
+      "https://avanti-deploy.vercel.app/contacts",
+      "https://avanti-deploy.vercel.app/services/stonework",
+      "https://avanti-deploy.vercel.app/blog",
+      "https://avanti-deploy.vercel.app/services/landscaping",
+      "https://avanti-deploy.vercel.app/sitemap",
+      "https://avanti-deploy.vercel.app/services/other-services",
+      "https://avanti-deploy.vercel.app/",
+      "https://avanti-deploy.vercel.app/services/woodwork",
+      "https://avanti-deploy.vercel.app/thank-you",
+      "https://avanti-deploy.vercel.app/about-us",
+      "https://avanti-deploy.vercel.app/get-a-quote",
+      "https://avanti-deploy.vercel.app/privacy-policy",
+      "https://avanti-deploy.vercel.app/gallery"
+    ],
+    "all_external_links": []
+  },
+  "blocked_urls": [],
+  "failed_urls": []
+}

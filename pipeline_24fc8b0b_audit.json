@@ -1,0 +1,1623 @@
+{
+  "audit_id": "site_audit_11ea86c6",
+  "crawl_id": "crawl_18d229d8",
+  "base_domain": "avanti-deploy.vercel.app",
+  "timestamp": "2026-01-19T22:58:00.238011Z",
+  "summary": {
+    "pages_analyzed": 13,
+    "overall_score": 92,
+    "total_issues": 48,
+    "issues_by_severity": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 22,
+      "LOW": 26
+    }
+  },
+  "site_wide_issues": [],
+  "page_audits": [
+    {
+      "audit_id": "audit_25153591",
+      "analyzed_url": "https://avanti-deploy.vercel.app/",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 95,
+      "component_scores": {
+        "title": 100,
+        "meta_description": 95,
+        "headings": 100,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_5f545ca9",
+      "analyzed_url": "https://avanti-deploy.vercel.app/get-a-quote",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 89,
+      "component_scores": {
+        "title": 80,
+        "meta_description": 95,
+        "headings": 85,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "METADATA",
+          "issue": "Title and H1 have low keyword alignment",
+          "severity": "MEDIUM",
+          "reasoning": "Title tag analysis for https://avanti-deploy.vercel.app/get-a-quote",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "title",
+            "current_value": "Landscaping Company - Avanti Landscaping"
+          },
+          "page_url": "https://avanti-deploy.vercel.app/get-a-quote"
+        },
+        {
+          "category": "CONTENT_STRUCTURE",
+          "issue": "H3 tags used without H2 tags - broken hierarchy",
+          "severity": "MEDIUM",
+          "reasoning": "Heading hierarchy analysis",
+          "remediation": {
+            "action": "RESTRUCTURE_HEADINGS",
+            "target": "headings",
+            "current_structure": {
+              "h1": [
+                "Get a free quote for your project"
+              ],
+              "h2": [],
+              "h3": [
+                "Get a free quote",
+                "Avanti Landscaping"
+              ]
+            }
+          },
+          "page_url": "https://avanti-deploy.vercel.app/get-a-quote"
+        },
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/get-a-quote"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/get-a-quote",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/get-a-quote"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "mailto:info@avantilandscaping.ca",
+              "tel:(647) 503-0352"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/get-a-quote"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_41cd5ed6",
+      "analyzed_url": "https://avanti-deploy.vercel.app/services/landscaping",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 95,
+      "component_scores": {
+        "title": 100,
+        "meta_description": 95,
+        "headings": 100,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/landscaping"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/services/landscaping",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/landscaping"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/landscaping"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_a45fc558",
+      "analyzed_url": "https://avanti-deploy.vercel.app/services/stonework",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 95,
+      "component_scores": {
+        "title": 100,
+        "meta_description": 95,
+        "headings": 100,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/stonework"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/services/stonework",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/stonework"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/stonework"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_196e1eaa",
+      "analyzed_url": "https://avanti-deploy.vercel.app/services/woodwork",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 95,
+      "component_scores": {
+        "title": 100,
+        "meta_description": 95,
+        "headings": 100,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/woodwork"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/services/woodwork",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/woodwork"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/woodwork"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_06d092f0",
+      "analyzed_url": "https://avanti-deploy.vercel.app/services/swimming-pools",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 95,
+      "component_scores": {
+        "title": 100,
+        "meta_description": 95,
+        "headings": 100,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/swimming-pools"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/services/swimming-pools",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/swimming-pools"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/swimming-pools"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_2517345d",
+      "analyzed_url": "https://avanti-deploy.vercel.app/services/other-services",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 95,
+      "component_scores": {
+        "title": 100,
+        "meta_description": 95,
+        "headings": 100,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/other-services"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/services/other-services",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/other-services"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/services/other-services"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_74a8d4dc",
+      "analyzed_url": "https://avanti-deploy.vercel.app/gallery",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 89,
+      "component_scores": {
+        "title": 80,
+        "meta_description": 95,
+        "headings": 85,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "METADATA",
+          "issue": "Title and H1 have low keyword alignment",
+          "severity": "MEDIUM",
+          "reasoning": "Title tag analysis for https://avanti-deploy.vercel.app/gallery",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "title",
+            "current_value": "Landscaping Company - Avanti Landscaping"
+          },
+          "page_url": "https://avanti-deploy.vercel.app/gallery"
+        },
+        {
+          "category": "CONTENT_STRUCTURE",
+          "issue": "H3 tags used without H2 tags - broken hierarchy",
+          "severity": "MEDIUM",
+          "reasoning": "Heading hierarchy analysis",
+          "remediation": {
+            "action": "RESTRUCTURE_HEADINGS",
+            "target": "headings",
+            "current_structure": {
+              "h1": [
+                "Our portfolio of outdoor transformations"
+              ],
+              "h2": [],
+              "h3": [
+                "Interlocking driveway & entry steps",
+                "Backyard pool with integrated lighting",
+                "Custom pergola with seating zone",
+                "Tiered steps with retaining wall",
+                "Modern deck with privacy screen",
+                "Flagstone walkway and garden beds",
+                "Avanti Landscaping"
+              ]
+            }
+          },
+          "page_url": "https://avanti-deploy.vercel.app/gallery"
+        },
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/gallery"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/gallery",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/gallery"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/gallery"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_b7220f69",
+      "analyzed_url": "https://avanti-deploy.vercel.app/about-us",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 92,
+      "component_scores": {
+        "title": 100,
+        "meta_description": 95,
+        "headings": 85,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "CONTENT_STRUCTURE",
+          "issue": "H3 tags used without H2 tags - broken hierarchy",
+          "severity": "MEDIUM",
+          "reasoning": "Heading hierarchy analysis",
+          "remediation": {
+            "action": "RESTRUCTURE_HEADINGS",
+            "target": "headings",
+            "current_structure": {
+              "h1": [
+                "Award winning & certified landscaping company in GTA"
+              ],
+              "h2": [],
+              "h3": [
+                "Get a free quote",
+                "Built on trust",
+                "Safety & insurance",
+                "One team, zero stress",
+                "Avanti Landscaping"
+              ]
+            }
+          },
+          "page_url": "https://avanti-deploy.vercel.app/about-us"
+        },
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/about-us"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/about-us",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/about-us"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/about-us"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_ba6362b0",
+      "analyzed_url": "https://avanti-deploy.vercel.app/blog",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 92,
+      "component_scores": {
+        "title": 100,
+        "meta_description": 95,
+        "headings": 85,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "CONTENT_STRUCTURE",
+          "issue": "H3 tags used without H2 tags - broken hierarchy",
+          "severity": "MEDIUM",
+          "reasoning": "Heading hierarchy analysis",
+          "remediation": {
+            "action": "RESTRUCTURE_HEADINGS",
+            "target": "headings",
+            "current_structure": {
+              "h1": [
+                "Insights from Avanti Landscaping"
+              ],
+              "h2": [],
+              "h3": [
+                "How interlocking boosts curb appeal and durability",
+                "Designing multi-functional backyards for hosting",
+                "Choosing the right pool type for your property",
+                "Avanti Landscaping"
+              ]
+            }
+          },
+          "page_url": "https://avanti-deploy.vercel.app/blog"
+        },
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/blog"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/blog",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/blog"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/blog"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_329944f5",
+      "analyzed_url": "https://avanti-deploy.vercel.app/contacts",
+      "page_type": "AboutPage",
+      "intent_assessment": "Navigational (User seeking specific page)",
+      "overall_score": 91,
+      "component_scores": {
+        "title": 80,
+        "meta_description": 95,
+        "headings": 100,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "METADATA",
+          "issue": "Title and H1 have low keyword alignment",
+          "severity": "MEDIUM",
+          "reasoning": "Title tag analysis for https://avanti-deploy.vercel.app/contacts",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "title",
+            "current_value": "Landscaping Company - Avanti Landscaping"
+          },
+          "page_url": "https://avanti-deploy.vercel.app/contacts"
+        },
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/contacts"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/contacts",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/contacts"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/contacts"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_e03657af",
+      "analyzed_url": "https://avanti-deploy.vercel.app/privacy-policy",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 92,
+      "component_scores": {
+        "title": 100,
+        "meta_description": 95,
+        "headings": 85,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "CONTENT_STRUCTURE",
+          "issue": "H3 tags used without H2 tags - broken hierarchy",
+          "severity": "MEDIUM",
+          "reasoning": "Heading hierarchy analysis",
+          "remediation": {
+            "action": "RESTRUCTURE_HEADINGS",
+            "target": "headings",
+            "current_structure": {
+              "h1": [
+                "Privacy Policy"
+              ],
+              "h2": [],
+              "h3": [
+                "Avanti Landscaping"
+              ]
+            }
+          },
+          "page_url": "https://avanti-deploy.vercel.app/privacy-policy"
+        },
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/privacy-policy"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/privacy-policy",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/privacy-policy"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/privacy-policy"
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_e0b212d9",
+      "analyzed_url": "https://avanti-deploy.vercel.app/sitemap",
+      "page_type": "WebPage",
+      "intent_assessment": "Mixed/Unclear Intent",
+      "overall_score": 92,
+      "component_scores": {
+        "title": 100,
+        "meta_description": 95,
+        "headings": 85,
+        "images": 100,
+        "links": 95,
+        "technical": 80
+      },
+      "tasks": [
+        {
+          "category": "CONTENT_STRUCTURE",
+          "issue": "H3 tags used without H2 tags - broken hierarchy",
+          "severity": "MEDIUM",
+          "reasoning": "Heading hierarchy analysis",
+          "remediation": {
+            "action": "RESTRUCTURE_HEADINGS",
+            "target": "headings",
+            "current_structure": {
+              "h1": [
+                "Site Map"
+              ],
+              "h2": [],
+              "h3": [
+                "Avanti Landscaping"
+              ]
+            }
+          },
+          "page_url": "https://avanti-deploy.vercel.app/sitemap"
+        },
+        {
+          "category": "TECHNICAL",
+          "issue": "Missing canonical tag - risk of duplicate content issues",
+          "severity": "MEDIUM",
+          "reasoning": "Canonical tag and redirect analysis",
+          "remediation": {
+            "action": "UPDATE_CANONICAL",
+            "target": "link[rel='canonical']",
+            "details": ""
+          },
+          "page_url": "https://avanti-deploy.vercel.app/sitemap"
+        },
+        {
+          "category": "METADATA",
+          "issue": "Meta description lacks a call-to-action",
+          "severity": "LOW",
+          "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/sitemap",
+          "remediation": {
+            "action": "UPDATE_TAG",
+            "target": "meta[name='description']",
+            "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+          },
+          "page_url": "https://avanti-deploy.vercel.app/sitemap"
+        },
+        {
+          "category": "LINKS",
+          "issue": "Found 3 malformed links",
+          "severity": "LOW",
+          "reasoning": "Internal linking and link health analysis",
+          "remediation": {
+            "action": "REVIEW_LINKS",
+            "target": "a",
+            "examples": [
+              "tel:(647) 870-8337",
+              "tel:(647) 503-0352",
+              "mailto:info@avantilandscaping.ca"
+            ]
+          },
+          "page_url": "https://avanti-deploy.vercel.app/sitemap"
+        }
+      ]
+    }
+  ],
+  "prioritized_tasks": [
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Title and H1 have low keyword alignment",
+      "severity": "MEDIUM",
+      "reasoning": "Title tag analysis for https://avanti-deploy.vercel.app/get-a-quote",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "title",
+        "current_value": "Landscaping Company - Avanti Landscaping"
+      },
+      "page_url": "https://avanti-deploy.vercel.app/get-a-quote"
+    },
+    {
+      "category": "CONTENT_STRUCTURE",
+      "issue": "H3 tags used without H2 tags - broken hierarchy",
+      "severity": "MEDIUM",
+      "reasoning": "Heading hierarchy analysis",
+      "remediation": {
+        "action": "RESTRUCTURE_HEADINGS",
+        "target": "headings",
+        "current_structure": {
+          "h1": [
+            "Get a free quote for your project"
+          ],
+          "h2": [],
+          "h3": [
+            "Get a free quote",
+            "Avanti Landscaping"
+          ]
+        }
+      },
+      "page_url": "https://avanti-deploy.vercel.app/get-a-quote"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/get-a-quote"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/landscaping"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/stonework"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/woodwork"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/swimming-pools"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/other-services"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Title and H1 have low keyword alignment",
+      "severity": "MEDIUM",
+      "reasoning": "Title tag analysis for https://avanti-deploy.vercel.app/gallery",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "title",
+        "current_value": "Landscaping Company - Avanti Landscaping"
+      },
+      "page_url": "https://avanti-deploy.vercel.app/gallery"
+    },
+    {
+      "category": "CONTENT_STRUCTURE",
+      "issue": "H3 tags used without H2 tags - broken hierarchy",
+      "severity": "MEDIUM",
+      "reasoning": "Heading hierarchy analysis",
+      "remediation": {
+        "action": "RESTRUCTURE_HEADINGS",
+        "target": "headings",
+        "current_structure": {
+          "h1": [
+            "Our portfolio of outdoor transformations"
+          ],
+          "h2": [],
+          "h3": [
+            "Interlocking driveway & entry steps",
+            "Backyard pool with integrated lighting",
+            "Custom pergola with seating zone",
+            "Tiered steps with retaining wall",
+            "Modern deck with privacy screen",
+            "Flagstone walkway and garden beds",
+            "Avanti Landscaping"
+          ]
+        }
+      },
+      "page_url": "https://avanti-deploy.vercel.app/gallery"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/gallery"
+    },
+    {
+      "category": "CONTENT_STRUCTURE",
+      "issue": "H3 tags used without H2 tags - broken hierarchy",
+      "severity": "MEDIUM",
+      "reasoning": "Heading hierarchy analysis",
+      "remediation": {
+        "action": "RESTRUCTURE_HEADINGS",
+        "target": "headings",
+        "current_structure": {
+          "h1": [
+            "Award winning & certified landscaping company in GTA"
+          ],
+          "h2": [],
+          "h3": [
+            "Get a free quote",
+            "Built on trust",
+            "Safety & insurance",
+            "One team, zero stress",
+            "Avanti Landscaping"
+          ]
+        }
+      },
+      "page_url": "https://avanti-deploy.vercel.app/about-us"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/about-us"
+    },
+    {
+      "category": "CONTENT_STRUCTURE",
+      "issue": "H3 tags used without H2 tags - broken hierarchy",
+      "severity": "MEDIUM",
+      "reasoning": "Heading hierarchy analysis",
+      "remediation": {
+        "action": "RESTRUCTURE_HEADINGS",
+        "target": "headings",
+        "current_structure": {
+          "h1": [
+            "Insights from Avanti Landscaping"
+          ],
+          "h2": [],
+          "h3": [
+            "How interlocking boosts curb appeal and durability",
+            "Designing multi-functional backyards for hosting",
+            "Choosing the right pool type for your property",
+            "Avanti Landscaping"
+          ]
+        }
+      },
+      "page_url": "https://avanti-deploy.vercel.app/blog"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/blog"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Title and H1 have low keyword alignment",
+      "severity": "MEDIUM",
+      "reasoning": "Title tag analysis for https://avanti-deploy.vercel.app/contacts",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "title",
+        "current_value": "Landscaping Company - Avanti Landscaping"
+      },
+      "page_url": "https://avanti-deploy.vercel.app/contacts"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/contacts"
+    },
+    {
+      "category": "CONTENT_STRUCTURE",
+      "issue": "H3 tags used without H2 tags - broken hierarchy",
+      "severity": "MEDIUM",
+      "reasoning": "Heading hierarchy analysis",
+      "remediation": {
+        "action": "RESTRUCTURE_HEADINGS",
+        "target": "headings",
+        "current_structure": {
+          "h1": [
+            "Privacy Policy"
+          ],
+          "h2": [],
+          "h3": [
+            "Avanti Landscaping"
+          ]
+        }
+      },
+      "page_url": "https://avanti-deploy.vercel.app/privacy-policy"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/privacy-policy"
+    },
+    {
+      "category": "CONTENT_STRUCTURE",
+      "issue": "H3 tags used without H2 tags - broken hierarchy",
+      "severity": "MEDIUM",
+      "reasoning": "Heading hierarchy analysis",
+      "remediation": {
+        "action": "RESTRUCTURE_HEADINGS",
+        "target": "headings",
+        "current_structure": {
+          "h1": [
+            "Site Map"
+          ],
+          "h2": [],
+          "h3": [
+            "Avanti Landscaping"
+          ]
+        }
+      },
+      "page_url": "https://avanti-deploy.vercel.app/sitemap"
+    },
+    {
+      "category": "TECHNICAL",
+      "issue": "Missing canonical tag - risk of duplicate content issues",
+      "severity": "MEDIUM",
+      "reasoning": "Canonical tag and redirect analysis",
+      "remediation": {
+        "action": "UPDATE_CANONICAL",
+        "target": "link[rel='canonical']",
+        "details": ""
+      },
+      "page_url": "https://avanti-deploy.vercel.app/sitemap"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/get-a-quote",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/get-a-quote"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "mailto:info@avantilandscaping.ca",
+          "tel:(647) 503-0352"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/get-a-quote"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/services/landscaping",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/landscaping"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/landscaping"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/services/stonework",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/stonework"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/stonework"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/services/woodwork",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/woodwork"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/woodwork"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/services/swimming-pools",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/swimming-pools"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/swimming-pools"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/services/other-services",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/other-services"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/services/other-services"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/gallery",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/gallery"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/gallery"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/about-us",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/about-us"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/about-us"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/blog",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/blog"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/blog"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/contacts",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/contacts"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/contacts"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/privacy-policy",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/privacy-policy"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/privacy-policy"
+    },
+    {
+      "category": "METADATA",
+      "issue": "Meta description lacks a call-to-action",
+      "severity": "LOW",
+      "reasoning": "Meta description analysis for https://avanti-deploy.vercel.app/sitemap",
+      "remediation": {
+        "action": "UPDATE_TAG",
+        "target": "meta[name='description']",
+        "current_value": "Award-winning landscaping company in Toronto & GTA offering landscaping, stonework, woodwork, swimming pools, and full turnkey outdoor builds."
+      },
+      "page_url": "https://avanti-deploy.vercel.app/sitemap"
+    },
+    {
+      "category": "LINKS",
+      "issue": "Found 3 malformed links",
+      "severity": "LOW",
+      "reasoning": "Internal linking and link health analysis",
+      "remediation": {
+        "action": "REVIEW_LINKS",
+        "target": "a",
+        "examples": [
+          "tel:(647) 870-8337",
+          "tel:(647) 503-0352",
+          "mailto:info@avantilandscaping.ca"
+        ]
+      },
+      "page_url": "https://avanti-deploy.vercel.app/sitemap"
+    }
+  ]
+}
